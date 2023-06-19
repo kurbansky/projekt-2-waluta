@@ -1,0 +1,75 @@
+body {
+  font-family: "Karla", sans-serif;
+  height: 100vh;
+  background: linear-gradient(#eccc6b, #d0885c);
+}
+
+.container-body {
+  width: 67%;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: rgb(219, 238, 243);
+}
+
+.container-img {
+  display: flex;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  margin: 20px auto;
+  width: 400px;
+  height: 260px;
+}
+
+.box {
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  width: 220px;
+  height: 60px;
+  background-color: bisque;
+  border: 3px dotted #d0885c;
+  justify-content: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.exch-container {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+}
+
+.amount {
+  width: 150px;
+  height: 30px;
+  font-size: medium;
+  background-color: rgb(246, 235, 222);
+}
+
+.sel {
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+  background-color: rgb(246, 235, 222);
+}
+
+.btn {
+  display: flex;
+  width: 100px;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+  background-color: rgb(246, 235, 222);
+  border: 3px outset #d0885c;
+}
+
+.result {
+  display: flex;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+}
