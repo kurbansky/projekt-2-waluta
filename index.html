@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,32 +10,32 @@
       href="https://fonts.googleapis.com/css2?family=Karla&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Przelicznik walut</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <body>
-      <div class="container-body">
-        <div class="box">Przelicznik walut</div>
-        <div class="container-img">
-          <img
-            class="logo"
-            src="./assets/charts.jpg"
-            alt="Photo of a stock charts on a computer and a mobile phone"
-          />
-        </div>
-        <div class="exch-container">
+    <div class="container-body">
+      <header class="box">Przelicznik walut</header>
+      <div class="container-img">
+        <img
+          class="logo"
+          src="./assets/charts.jpg"
+          alt="Photo of a stock charts on a computer and a mobile phone"
+        />
+      </div>
+      <div class="exch-container">
+        <form id="selectForm">
           <input type="number" class="amount" placeholder="Wpisz kwotę" />
           <select class="sel">
             <option value="usd">USD</option>
             <option value="eur">EUR</option>
             <option value="chf">CHF</option>
           </select>
-          <button class="btn">Przelicz</button>
-          <div class="result"></div>
-        </div>
+          <button class="btn" type="submit">Przelicz</button>
+        </form>
+        <div class="result"></div>
       </div>
-    </body>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
