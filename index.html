@@ -24,9 +24,15 @@
         />
       </div>
       <div class="exch-container">
-        <form id="selectForm">
-          <input type="number" class="amount" placeholder="Wpisz kwotę" />
-          <select class="sel">
+        <form>
+          <input
+            type="number"
+            step="0.01"
+            class="inputForm"
+            name="amount"
+            placeholder="Wpisz kwotę"
+          />
+          <select class="sel" name="currency">
             <option value="usd">USD</option>
             <option value="eur">EUR</option>
             <option value="chf">CHF</option>
